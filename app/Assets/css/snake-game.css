@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, serif;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.grid {
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+}
+
+.grid_table {
+    float: left;
+}
+
+.scoreboard {
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+}
+/*/////////////// SCORE BOARD & LEGEND ////////////////////////*/
+.scoreboard h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.l_snake {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    color: #000;
+}
+
+.l_apple {
+    width: 10px;
+    height: 10px;
+    background: red;
+    color: red;
+}
+
+.l_mouse {
+    width: 10px;
+    height: 10px;
+    background: #999;
+    color: #999;
+}
+
+.points {
+    font-size: 30px;
+}
+
+.points #total_points {
+    font-weight: bold;
+}
+
+.grid table tr td {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #eee;
+    margin: 0;
+}
+
+.grid table tr td.snake {
+    background: #000;
+    border: 1px solid #000;
+}
+
+.grid table tr td.apple {
+    background: url('../img/apple.png') center no-repeat;
+    background-size: contain;
+    /*border: 1px solid red;*/
+}
+
+.grid table tr td.mouse {
+    background: url('../img/mouse.png') center no-repeat;
+    background-size: contain;
+    /*border: 1px solid #999;*/
+}
+
+.clear {
+    clear: both;
+}
